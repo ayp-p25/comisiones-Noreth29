@@ -6,11 +6,11 @@ Inserta el encabezado aquí y escribe tu código abajo
 
 
 # Entradas
-L = int(input("Ventas lunes: "))
-M = int(input("Ventas martes: "))
-X = int(input("Ventas miércoles: "))
-J = int(input("Ventas jueves: "))
-V = int(input("Ventas viernes: "))
+L = float(input("Ventas lunes: "))
+M = float(input("Ventas martes: "))
+X = float(input("Ventas miércoles: "))
+J = float(input("Ventas jueves: "))
+V = float(input("Ventas viernes: "))
 # Proceso
 ventas = (L+M+X+J+V)
 
